@@ -4,7 +4,7 @@ import "./Subscribe.css";
 export const Subscribe = () => {
   return (
     <div className="h-86 md:h-36 p-2 md:p-0  w-full bg-header">
-      <div className="max-w-screen-2xl m-auto py-4 grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="main_container m-auto py-4 grid grid-cols-1 md:grid-cols-2 gap-4">
         <div className="py-4">
           <h1 className="text-3xl letter-space-2 font-bold text-white">
             Subscribe Us

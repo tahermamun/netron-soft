@@ -7,7 +7,7 @@ export const Services = () => {
   return (
     <div className="bg-gray-100 py-8">
       <Title title1={"what we do ?"} title2={"Our Services"} />
-      <div className="max-w-screen-2xl py-8 m-auto grid grid-cols-1 gap-4 md:grid-cols-3">
+      <div className="main_container py-8 m-auto grid grid-cols-1 gap-4 md:grid-cols-3">
         <ServiceInfoCard
           img={img}
           title1={`Web`}

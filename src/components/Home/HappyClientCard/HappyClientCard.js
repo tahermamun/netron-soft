@@ -1,14 +1,14 @@
 import React from "react";
-import Img2 from "../../assets/image/CloickIndogo.png";
-import Img1 from "../../assets/image/HandRed.png";
-import Img4 from "../../assets/image/TikAqua.png";
-import Img3 from "../../assets/image/WorldGreen.png";
+import Img2 from "../../../assets/image/CloickIndogo.png";
+import Img1 from "../../../assets/image/HandRed.png";
+import Img4 from "../../../assets/image/TikAqua.png";
+import Img3 from "../../../assets/image/WorldGreen.png";
 import { HappyClientInfoCard } from "./HappyClientInfoCard";
 
 export const HappyClientCard = () => {
   return (
     <div>
-      <div className="max-w-screen-2xl px-4 py-8 m-auto grid grid-cols-1 md:grid-cols-4">
+      <div className="main_container px-4 py-8 m-auto grid grid-cols-1 md:grid-cols-4">
         <HappyClientInfoCard
           img={Img1}
           width={"w-20"}

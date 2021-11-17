@@ -7,7 +7,7 @@ import Phone from "../../assets/image/Phonee.png";
 
 export const TeamCard = () => {
   return (
-    <div className="max-w-screen-2xl py-8 m-auto ">
+    <div className="main_container py-8 m-auto ">
       <div className="grid grid-cols-1 md:grid-cols-2 py-4 md:py-8 gap-4">
         <div className="md:pr-36">
           <h1 className="text-2xl font-bold letter-space-2">
