@@ -1,3 +1,4 @@
+
 /* global style start */
 
 .main_container {
@@ -27,3 +28,45 @@
 }
 
 /* global style end */
+
+
+
+
+.letter-space-1 {
+  letter-spacing: 1px;
+}
+.letter-space-2 {
+  letter-spacing: 2px;
+}
+
+/* top selling section */
+
+.top-selling {
+  position: relative;
+  min-height: 395px;
+}
+.top-selling::before {
+  content: "";
+  top: 5%;
+  left: 5%;
+  background: #000;
+  opacity: 0.8;
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  transition: transform 0.5s ease-in-out;
+  transform-origin: center;
+  transform: scale(0);
+}
+.sell:hover .top-selling::before {
+  transform: scale(1);
+}
+.top-product-details {
+  letter-spacing: 2px;
+  transform: scale(0);
+  transition: transform 0.75s;
+}
+.sell:hover .top-product-details {
+  transform: scale(1);
+}
+
