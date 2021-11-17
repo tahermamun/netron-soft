@@ -1,0 +1,7 @@
+.blog-overly {
+  transition: 0.5s ease;
+}
+
+.blog-overly:hover {
+  background: rgba(0, 0, 0, 0.2);
+}

@@ -1,4 +1,6 @@
 import React from "react";
+import { About } from "../About/About";
+import { AllServices } from "../AllServices/AllServices";
 import { Blogs } from "../Blogs/Blogs";
 import { HappyClientCard } from "../HappyClientCard/HappyClientCard";
 import { LatestProject } from "../LatestProject/LatestProject";
@@ -15,6 +17,8 @@ const Homepage = () => {
       <Team />
       <Subscribe />
       <Blogs />
+      <About />
+      <AllServices />
     </div>
   );
 };

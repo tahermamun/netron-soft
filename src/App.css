@@ -35,3 +35,7 @@
 .sell:hover .top-product-details {
   transform: scale(1);
 }
+
+.z-index1111 {
+  z-index: 999;
+}
