@@ -1,5 +1,5 @@
 import React from "react";
-import { Title } from "../SectionTitle/Title";
+import { Title } from "../../SectionTitle/Title";
 import { LatestProjectCard } from "./LatestProjectCard";
 
 export const LatestProject = () => {
