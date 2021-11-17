@@ -1,17 +1,22 @@
-import React from 'react';
+import React from "react";
+import { Blogs } from "../Blogs/Blogs";
+import { HappyClientCard } from "../HappyClientCard/HappyClientCard";
+import { LatestProject } from "../LatestProject/LatestProject";
+import { Services } from "../Services/Services";
+import { Subscribe } from "../Subscribe/Subscribe";
+import { Team } from "../Team/Team";
 
 const Homepage = () => {
-    return (
-        <div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4">
-            <div class="flex-shrink-0">
-                <img class="h-12 w-12" src="/img/logo.svg" alt="ChitChat Logo" />
-            </div>
-            <div>
-                <div class="text-xl font-medium text-black">ChitChat</div>
-                <p class="text-gray-500">You have a new message!</p>
-            </div>
-        </div>
-    );
+  return (
+    <div>
+      <HappyClientCard />
+      <Services />
+      <LatestProject />
+      <Team />
+      <Subscribe />
+      <Blogs />
+    </div>
+  );
 };
 
 export default Homepage;

@@ -1,0 +1,14 @@
+.custom-bg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-header {
+  background: linear-gradient(
+      135deg,
+      rgba(0, 0, 0, 0.637),
+      rgba(0, 0, 0, 0.623)
+    ),
+    url("../../assets/image/Subscribe.jpg") no-repeat center center/cover;
+  background-attachment: fixed;
+}
