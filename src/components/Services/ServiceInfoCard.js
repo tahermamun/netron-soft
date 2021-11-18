@@ -11,12 +11,12 @@ export const ServiceInfoCard = ({
     <div className="p-6 rounded bg-white">
       <div className="flex items-center">
         <div
-          className={`w-28 flex justify-center items-center rounded-full h-28 ${background} overflow-hidden`}
+          className={`w-20 flex justify-center items-center rounded-full h-20 ${background} overflow-hidden`}
         >
-          <img src={img} className="w-16" alt="" />
+          <img src={img} className="w-8" alt="" />
         </div>
-        <p className="text-3xl font-bold ml-2 md:ml-4">
-          {title1} <br /> {title2}
+        <p className="text-2xl font-bold ml-2 md:ml-4">
+          {title1}
         </p>
       </div>
       <p className="px-0 pt-4 text-md font-semibold">{description}</p>

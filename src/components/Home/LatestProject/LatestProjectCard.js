@@ -1,8 +1,11 @@
 import React from "react";
+import latestProjectImg from "../../../assets/image/mobileApp.png"
+
+
 
 export const LatestProjectCard = () => {
   return (
-    <div className="sell">
+    <div className="sell border">
       <div className="top-selling">
         <div className="absolute p-12 text-white text-left w-full h-full top-product-details">
           <div className="h-3/6 ">
@@ -13,10 +16,7 @@ export const LatestProjectCard = () => {
             <button className="w-30 bg-black px-4 py-1">See More</button>
           </div>
         </div>
-        <img 
-          src="https://i.ibb.co/tcPJqLz/pexels-eziz-charyyev-1475938.jpg"
-          alt=""
-        />
+        <img className="latestProjectImg" src={latestProjectImg} alt="" />
       </div>
     </div>
   );

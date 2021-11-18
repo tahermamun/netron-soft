@@ -52,13 +52,13 @@
 .footer_area_box .middle_1 .footer_col_title {
   font-size: 22px;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .footer_area_box .middle_1 ul li {
   font-size: 13px;
   font-weight: 400;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 .footer_area_box .middle_1 ul li a:hover {
   color: #ff0000;
@@ -68,6 +68,8 @@
   display: flex;
   align-items: center;
   list-style: none;
+  margin-top: 25px;
+
 }
 .footer_area_box .middle_1:last-child ul li img {
   width: 20px;

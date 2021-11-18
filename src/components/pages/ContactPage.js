@@ -1,6 +1,8 @@
 import React from 'react';
 import HeroSection from '../HeroSection/HeroSection';
 import Footer from '../shared/Footer/Footer';
+import {Contact} from "../Contact/Contact"
+
 
 const HeaderContent = {
     title: 'Contact to Netron Soft',
@@ -11,9 +13,7 @@ const ContactPage = () => {
         <>
             <HeroSection content={HeaderContent} />
 
-            <br />
-            <br />
-            <br />
+         <Contact/>
 
             <Footer />
         </>

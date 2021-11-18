@@ -8,7 +8,7 @@ export const HappyClientInfoCard = ({
   content,
 }) => {
   return (
-    <div className="rounded py-28">
+    <div className="rounded py-8">
       <div
         className={`mx-auto w-32 h-32 rounded-full ${background} flex items-center overflow-hidden justify-center`}
       >

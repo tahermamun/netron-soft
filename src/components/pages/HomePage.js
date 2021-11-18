@@ -1,7 +1,7 @@
 import React from "react";
 import { About } from "../About/About";
 import { AllServices } from "../AllServices/AllServices";
-import { Blogs } from "../Blogs/Blogs";
+// import { Blogs } from "../Blogs/Blogs";
 import { HappyClientCard } from "../Home/HappyClientCard/HappyClientCard";
 import Header from '../Home/Header/Header';
 import {LatestProject} from '../Home/LatestProject/LatestProject';
@@ -20,7 +20,7 @@ const Homepage = () => {
             <LatestProject />
             <Team />
             <Subscribe />
-            <Blogs />
+            {/* <Blogs /> */}
             <Footer />
         </div>
     );

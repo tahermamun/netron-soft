@@ -7,8 +7,8 @@ import { HappyClientInfoCard } from "./HappyClientInfoCard";
 
 export const HappyClientCard = () => {
   return (
-    <div>
-      <div className="main_container px-4 py-8 m-auto grid grid-cols-1 md:grid-cols-4">
+    <div className="py-16">
+      <div className="main_container px-4 md:py-16 m-auto grid grid-cols-1 md:grid-cols-4">
         <HappyClientInfoCard
           img={Img1}
           width={"w-14"}

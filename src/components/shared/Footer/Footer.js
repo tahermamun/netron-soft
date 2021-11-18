@@ -5,6 +5,8 @@ import twitterIcon from '../../../assets/image/twitter_icon.png'
 import youtubeIcon from '../../../assets/image/youtube_icon.png'
 import instagramIcon from '../../../assets/image/instagram_icon.png'
 import emailIcon from '../../../assets/image/email_icon.png'
+import locationIcon from '../../../assets/image/location_icon.png'
+import mobileIcon from '../../../assets/image/mobile_icon.png'
 
 
 const footerData = {
@@ -28,39 +30,48 @@ const footerData = {
     ],
     serviceData: [
         {
-            title: "Web Development",
+            title: "Enterprise Software",
             link: "#"
         },
         {
-            title: "Web Development",
+            title: "Web Application Development",
             link: "#"
         },
         {
-            title: "Web Development",
+            title: "Theme Customize Service",
             link: "#"
         },
+        {
+            title: "E-commerce solution",
+            link: "#"
+        },
+        {
+            title: "UI/UX Design",
+            link: "#"
+        },
+        {
+            title: "Custom Business Solution",
+            link: "#"
+        }
     ],
     quickLinks: [
         {
-            title: "Web Development",
-            link: "#"
+            title: "Home",
+            link: "/home"
         },
         {
-            title: "Web Development",
-            link: "#"
+            title: "Contact Us",
+            link: "/contact"
         },
         {
-            title: "Web Development",
-            link: "#"
+            title: "About Us",
+            link: "/about"
         },
         {
-            title: "Web Development",
-            link: "#"
+            title: "Our Services",
+            link: "/services"
         },
-        {
-            title: "Web Development",
-            link: "#"
-        },
+       
     ],
     reachData: [
         {
@@ -68,12 +79,12 @@ const footerData = {
             data: "info@gmail.com"
         },
         {
-            icon: emailIcon,
-            data: "info@gmail.com"
+            icon: mobileIcon,
+            data: "+8801xxxxxxxx"
         },
         {
-            icon: emailIcon,
-            data: "info@gmail.com"
+            icon: locationIcon,
+            data: "Dhaka, mirpur 3434 Bangladesh"
         },
 
     ]
@@ -88,7 +99,7 @@ const Footer = () => {
                 <div className="footer_area_box main_container">
                     <div className="left">
                         <h1>Netron<span>Soft</span></h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum ea fugiat, ipsum qui labore voluptatem a quo nemo hic minus!</p>
+                        <p>Technology make Business Simple. Grow passive income by using modern technology. NetronSoft always will be with you.</p>
                         <div className="social_icons">
                             <ul>
                                 {
