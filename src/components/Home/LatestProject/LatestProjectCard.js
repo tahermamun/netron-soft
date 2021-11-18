@@ -13,7 +13,7 @@ export const LatestProjectCard = () => {
             <button className="w-30 bg-black px-4 py-1">See More</button>
           </div>
         </div>
-        <img
+        <img 
           src="https://i.ibb.co/tcPJqLz/pexels-eziz-charyyev-1475938.jpg"
           alt=""
         />

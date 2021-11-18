@@ -9,7 +9,7 @@ const HeaderContent = {
 const Header = () => {
     return (
         <>
-            <HeroSection height='90' video={true} content={HeaderContent} />
+            <HeroSection height='100' video={true} content={HeaderContent} />
         </>
     );
 };
