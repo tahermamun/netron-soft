@@ -1,4 +1,3 @@
-
 /* global style start */
 
 .main_container {
@@ -8,7 +7,7 @@
 
 .global_button {
   /* background-color: red; */
-  padding: 5px 10px;
+  padding: 10px 20px;
   font-size: 16px;
   font-weight: 600;
   border-radius: 5px;
@@ -28,9 +27,6 @@
 }
 
 /* global style end */
-
-
-
 
 .letter-space-1 {
   letter-spacing: 1px;
@@ -62,16 +58,13 @@
 .sell:hover .top-selling::before {
   transform: scale(1);
   z-index: 1111;
-
 }
 .top-product-details {
   letter-spacing: 2px;
   transform: scale(0);
   transition: transform 0.75s;
   z-index: 1111;
-
 }
 .sell:hover .top-product-details {
   transform: scale(1);
 }
-
