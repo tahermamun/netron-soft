@@ -1,0 +1,16 @@
+.computer_view {
+    display: block !important;
+  }
+  .mobile_view {
+    display: none !important;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .computer_view {
+      display: none !important;
+    }
+    .mobile_view {
+      display: block !important;
+    }
+  }
+  
